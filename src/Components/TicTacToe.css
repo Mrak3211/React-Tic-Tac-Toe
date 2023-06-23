@@ -1,0 +1,67 @@
+.app {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .board {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 450px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  
+  .cell {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    cursor: pointer;
+    background-color: #f8f8f8;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cell:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .cell.X {
+    color: #3d84b8;
+  }
+  
+  .cell.O {
+    color: #ff8c00;
+  }
+  
+  .winner-message {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
